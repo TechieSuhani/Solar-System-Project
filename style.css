@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: black;
+    background-image: url(space\ background.webp);
+}
+
+.parent {
+    height: 900px;
+    width: 900px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sun-orbit {
+    height: 800px;
+    width: 800px;
+    display: flex;
+    border-radius: 50%;
+    animation: rotation 40s ease-in-out 0s infinite normal;
+}
+
+.sun {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 250px;
+    margin-left: 250px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: #F9812B;
+    text-align: center;
+    line-height: 15;
+    font-family: cursive;
+    font-weight: 700;
+    background-image: url(sun\ image.jpg);
+    background-size: 100%;
+    animation: orbit 40s ease-in-out 0s infinite normal;
+    padding: 20px;
+}
+
+.mercury-orbit {
+    height: 270px;
+    width: 270px;
+    margin: 10px 0px 0px 10px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 400px;
+    margin-right: -200px;
+    animation: rotation25s ease-in-out 0s infinite normal;
+}
+
+.mercury {
+    height: 130px;
+    width: 130px;
+    border: 1px solid black;
+    background-color: #8CB1DE;
+    text-align: center;
+    line-height: 8;
+    font-family: cursive;
+    font-weight: 700;
+    background-image: url(mercury\ image\ 2.jpg);
+    background-size: 100%;
+    margin-top: 60px;
+    margin-left: 70px;
+    position: fixed;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.venus-orbit {
+    height: 270px;
+    width: 270px;
+    margin: 5px 0px 0px 5px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 350px;
+    margin-right: -200px;
+    animation: rotation25s ease-in-out 0s infinite normal;
+}
+
+.venus {
+    height: 130px;
+    width: 130px;
+    border: 1px solid black;
+    background-color: #8CB1DE;
+    text-align: center;
+    line-height: 8;
+    font-family: cursive;
+    font-weight: 700;
+    background-image: url(venus\ planet.jpg);
+    background-size: 100%;
+    margin-top: 60px;
+    margin-left: 70px;
+    position: fixed;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.earth-orbit {
+    height: 270px;
+    width: 270px;
+    margin: 10px 0px 0px 10px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 380px;
+    margin-right: -200px;
+    animation: rotation25s ease-in-out 0s infinite normal;
+}
+
+.earth {
+    height: 130px;
+    width: 130px;
+    border: 1px solid black;
+    background-color: #8CB1DE;
+    text-align: center;
+    line-height: 4;
+    font-family: cursive;
+    font-weight: 700;
+    background-image: url(earth\ image.jpg);
+    background-size: 100%;
+    margin-top: 60px;
+    margin-left: 70px;
+    position: fixed;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.moon {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 5.0;
+    font-family: cursive;
+    font-weight: 700;
+    font-size: small;
+    background-image: url(moon\ image.webp);
+    background-size: 100%;
+    border-radius: 50%;
+    background-size: 100%;
+    padding: 5px;
+}
+
+.mars-orbit {
+    height: 270px;
+    width: 270px;
+    margin: 10px 0px 0px 10px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 300px;
+    margin-right: -200px;
+    animation: rotation25s ease-in-out 0s infinite normal;
+}
+
+.mars {
+    height: 130px;
+    width: 130px;
+    border: 1px solid black;
+    background-color: #8CB1DE;
+    text-align: center;
+    line-height: 8;
+    font-family: cursive;
+    font-weight: 700;
+    background-image: url(mars\ image\ 2.jpg);
+    background-size: 130%;
+    margin-top: 60px;
+    margin-left: 70px;
+    position: fixed;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.jupiter-orbit {
+    height: 270px;
+    width: 270px;
+    margin: 10px 0px 0px 10px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 350px;
+    margin-right: -200px;
+    animation: rotation25s ease-in-out 0s infinite normal;
+}
+
+.jupiter {
+    height: 130px;
+    width: 130px;
+    border: 1px solid black;
+    background-color: #8CB1DE;
+    text-align: center;
+    line-height: 8;
+    font-family: cursive;
+    font-weight: 700;
+    background-image: url(jupiter\ image.jpg);
+    background-size: 100%;
+    margin-top: 60px;
+    margin-left: 70px;
+    position: fixed;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.saturn-orbit {
+    height: 270px;
+    width: 270px;
+    margin: 10px 0px 0px 10px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 380px;
+    margin-right: -200px;
+    animation: rotation25s ease-in-out 0s infinite normal;
+}
+
+.saturn {
+    height: 130px;
+    width: 130px;
+    border: 1px solid black;
+    background-color: #8CB1DE;
+    text-align: center;
+    line-height: 6;
+    font-family: cursive;
+    font-weight: 700;
+    background-image: url(saturn\ image.jpg);
+    background-size: 100%;
+    margin-top: 60px;
+    margin-left: 70px;
+    position: fixed;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.uranus-orbit {
+    height: 270px;
+    width: 270px;
+    margin: 10px 0px 0px 10px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 350px;
+    margin-right: -200px;
+    animation: rotation25s ease-in-out 0s infinite normal;
+}
+
+.uranus {
+    height: 130px;
+    width: 130px;
+    border: 1px solid black;
+    background-color: #8CB1DE;
+    text-align: center;
+    line-height: 8;
+    font-family: cursive;
+    font-weight: 700;
+    background-image: url(uranus\ image.jpg);
+    background-size: 100%;
+    margin-top: 60px;
+    margin-left: 70px;
+    position: fixed;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.neptune-orbit {
+    height: 270px;
+    width: 270px;
+    margin: 10px 0px 0px 10px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 350px;
+    margin-right: -200px;
+    animation: rotation25s ease-in-out 0s infinite normal;
+}
+
+.neptune {
+    height: 130px;
+    width: 130px;
+    border: 1px solid black;
+    background-color: #8CB1DE;
+    text-align: center;
+    line-height: 8;
+    font-family: cursive;
+    font-weight: 700;
+    background-image: url(neptune\ image.jpg);
+    background-size: 115%;
+    margin-top: 60px;
+    margin-left: 70px;
+    position: fixed;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+@keyframes rotation {
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
+
+@keyframes orbit {
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
